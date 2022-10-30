@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.card {
+    height: 450px;
+    width: 700px;
+    background-image: url(public/Assets/images/fondSimpson.png);
+    border: 2px black solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px grey;
+    margin-top: 1rem;
+}
+
+.card-header {
+    width: 100%;
+    background-color: #83a3b8;
+    color: whitesmoke;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid black 2px;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.admin-info,
+.physical-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.5rem;
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.pyInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homerSignature {
+
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.signatureTitle {
+    font-size: 0.5rem;
+}
+
+.photo {
+    height: 270px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 0.5rem;
+}
+
+.address {
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    line-height: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-card {
+    width: 100%;
+    background-color: #83a3b8;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    border: solid black 2px;
+    padding-inline: 0.5rem;
+    padding-block: 0.3rem;
+    ;
+    margin: 0.5rem;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+.photoAndData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.createBtn {
+    width: 100%;
+    background-color: #83a3b8;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+    border: solid black 2px;
+    padding-inline: 0.5rem;
+    padding-block: 0.3rem;
+    margin-bottom: 5rem;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
